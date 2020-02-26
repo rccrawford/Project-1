@@ -1,0 +1,78 @@
+@media screen and (max-width: 900px) {
+   label,legend {
+        text-align: center;
+      width: 100%;
+  
+      }
+}
+  body {
+      background-color: #ffd1dc ;
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+       font-family: "helvetica neue";
+      font-size: 32px;
+  
+  }
+  label{
+      padding: 10px;
+  }
+
+  input[type="submit"] {
+      margin-right: auto;
+      margin-left: auto;
+      margin-top:40px;
+  
+  }
+p{
+    padding-bottom: 20px;
+}
+  h1  {
+      font-family: 'roboto', sans-serif;
+      text-align: center;
+      font-size: 60px;
+      color: #f8f8ff;
+      padding-bottom: 40px;
+      padding-top: 40px;
+  }
+  
+  input {
+      padding: 20px;
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+  }
+  
+  input[type=tel], input[type=email], input[type=text]{
+      width: 45%;
+      font-size: 20px;
+      padding: 10px;
+  }
+  
+@media screen and (max-width: 600px) {
+    form {
+      margin: 0 0 10px 0;
+      width: 100%;
+    }
+    label,legend {
+        width: 100%;
+      float: none;
+    }
+  
+    label {
+      width: 100%;
+      text-align: center;
+        font-size: 1.0em;
+    }
+   fieldset {
+      width: 95%;
+      float: none;
+    }
+  
+  
+    input[type=text],input[type=email],input[type=tel], input[type=checkbox] 
+    {
+      width: 90%;
+    }
+}
+ 
